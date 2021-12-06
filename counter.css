@@ -1,0 +1,49 @@
+body {
+    background-color: #ffb3e6;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Smooch', cursive;
+    color: #3333cc;
+    font-size: 50px;
+}
+
+#count {
+    margin-top: 100px;
+    font-size: 80px;
+    text-align: center;
+}
+
+.btn {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#like {
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+#dislike {
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+#like:hover {
+    cursor: pointer;
+    background-color: #66ff99;
+    color:#6600ff;
+}
+
+#dislike:hover  {
+    cursor: pointer;
+    background-color:#66ff99;
+    color:#6600ff;
+}
